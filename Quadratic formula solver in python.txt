@@ -1,0 +1,12 @@
+                                                       # this will solve the qaudratic formula using user inputs as values for A B and C
+import math                                            # so i can use the sqrt operater on line 7
+a = int(input('type your value for A then B then C'))  # user input for A
+b = int(input())             # user input for B
+c = int(input())             # user input for C
+d = -b                       #i decided that i would break the formula apart into different varibles and peice it toogether 
+e = (b * b)                  #couldnt find another way to sqaure B
+f = math.sqrt(e - 4 * a * c) # put toogether all the parts that go inside the sqaure root so i can add it to 
+g =(d + f)    # where you add -b and the sqaure rooted number 
+h = (2 * a)   # the bottom of the equasion what you divide by 
+i = (g / h)   #the last part where you divide the bottom and top half 
+print(i)      #making it so the final answer shows up for the user 
